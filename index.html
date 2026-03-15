@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Ahnab er portfolio website. Projects, skills, and contact information.">
+    <title>Ahnab Portfolio | CSE Student & Web Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(54, 54, 122)
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: black;
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9C97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 70%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+            height: 90px;
+            width: 1px;
+            margin: 0 140px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -40px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            color: gray;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 20px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"> Ahnab's portfolio </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About me</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Ahnab</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Visit Codeforces</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="ahu.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>What I am learning now &</h1>
+            <h1>My Educational Qualification</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Ongoing Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia pariatur, aperiam, laudantium
+                        reiciendis distinctio quibusdam explicabo, laborum inventore qui facilis aspernatur officia ea!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML, CSS, JS
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia pariatur, aperiam, laudantium
+                        reiciendis distinctio quibusdam explicabo, laborum inventore qui facilis aspernatur officia ea!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        CUET CSE
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia pariatur, aperiam, laudantium
+                        reiciendis distinctio quibusdam explicabo, laborum inventore qui facilis aspernatur officia ea!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Part time Cricketer
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia pariatur, aperiam, laudantium
+                        reiciendis distinctio quibusdam explicabo, laborum inventore qui facilis aspernatur officia ea!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ahnab's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Gmail : </li>
+                    <li>Address : </li>
+                    <li>Contact me : </li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>ahnabsegan4@gmail.com</li>
+                    <li>Chittagang (CUET)</li>
+                    <li>01538333228</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem Solver', 'Cricketer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
